@@ -6,6 +6,8 @@
     "test": "jest",
     "start": "./main.js"
   },
+  "repository": "git@github.com:floriansimon1/holidays.git",
+  "description": "Micro-service that knows about holidays",
   "jest": {
     "testEnvironment": "node"
   },
