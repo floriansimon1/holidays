@@ -1,0 +1,22 @@
+{
+  "name": "holidays",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "start": "./main.js"
+  },
+  "jest": { "testEnvironment": "node" },
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "jest": "^22.2.1"
+  },
+  "dependencies": {
+    "lodash.curry": "^4.1.1",
+    "lodash.memoize": "^4.1.2",
+    "lodash.spread": "^4.2.1",
+    "lonad": "0.0.36",
+    "luxon": "^0.4.0"
+  }
+}
