@@ -6,7 +6,9 @@
     "test": "jest",
     "start": "./main.js"
   },
-  "jest": { "testEnvironment": "node" },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "license": "MIT",
   "devDependencies": {
     "axios": "^0.17.1",
