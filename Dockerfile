@@ -9,4 +9,6 @@ WORKDIR holidays
 
 RUN npm i --production
 
+EXPOSE 80
+
 ENTRYPOINT ["npm", "start"]
