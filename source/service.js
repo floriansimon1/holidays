@@ -2,7 +2,6 @@
 
 const nodeHttp       = require("http");
 const { Optional }   = require("lonad");
-const { pipe }       = require("ramda");
 const http           = require("./http");
 const Dates          = require("./dates");
 const Holidays       = require("./holidays");
