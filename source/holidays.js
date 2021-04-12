@@ -2,7 +2,6 @@
 
 const Countries = require("./countries");
 const memoize   = require("lodash.memoize");
-const Dates     = require("./dates");
 const luxon     = require("luxon");
 
 const easter = Symbol.for("Easter");

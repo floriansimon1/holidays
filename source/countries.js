@@ -12,8 +12,6 @@ module.exports = {
   luxembourg,
 
   parseCountry(identifier) {
-    const lower = identifier.toLowerCase();
-
     const asSymbol = Symbol.for(identifier);
 
     return Optional
